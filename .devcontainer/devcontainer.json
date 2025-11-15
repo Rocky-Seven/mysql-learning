@@ -1,0 +1,6 @@
+{
+  "name": "MySQL Learning Environment",
+  "dockerComposeFile": "docker-compose.yml",
+  "service": "app",
+  "workspaceFolder": "/workspace"
+}
