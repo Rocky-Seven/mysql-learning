@@ -215,12 +215,12 @@ FROM employees
 ORDER BY FIELD(gender, '男', '女'), birth_date ASC;
 ```
 
-## 📖 関連ブログ連載
+## 📖 関連ブログ連載（https://my-studies.org)
 
 「MySQLで学ぶ受注管理システム開発」（全5回）
 
-1. [テーブル設計とER図を描こう](制作中)
-2. [CRUD操作を極めよう](制作中)
+1. [テーブル設計とER図を描こう]※制作中
+2. [CRUD操作を極めよう]※制作中
 
 ## 📝 練習問題
 
@@ -262,8 +262,8 @@ GROUP BY d.department_name;"
 
 ## 📚 学習リソース
 
-- [MySQL公式ドキュメント](https://dev.mysql.com/doc/)
-- [SQL基礎文法](https://www.w3schools.com/sql/)
+- [MySQL公式ドキュメント](https://dev.mysql.com/doc/)※外部リンク
+- [SQL基礎文法](https://www.w3schools.com/sql/)※外部リンク
 
 ## 🔧 接続情報
 
