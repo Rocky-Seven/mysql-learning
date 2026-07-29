@@ -1,6 +1,9 @@
 # MySQL学習環境
 
-GitHub Codespacesで動作するMySQL学習用リポジトリです。社員表と部署表を使ってSQLの基本操作を学習できます。
+GitHub Codespacesで動作するMySQL学習用リポジトリです。
+
+- `company_db`：社員表と部署表を使ったSQLの基本操作の学習
+- `order-management`：受注管理システムを題材にした実践的なテーブル設計・CRUD・トランザクションの学習（ブログ連載「MySQLで学ぶ受注管理システム開発」に対応）
 
 ## 📋 テーブル構成
 
@@ -212,6 +215,13 @@ FROM employees
 ORDER BY FIELD(gender, '男', '女'), birth_date ASC;
 ```
 
+## 📖 関連ブログ連載
+
+「MySQLで学ぶ受注管理システム開発」（全5回）
+
+1. [テーブル設計とER図を描こう](制作中)
+2. [CRUD操作を極めよう](制作中)
+
 ## 📝 練習問題
 
 ### 初級
@@ -270,7 +280,12 @@ mysql-learning/
 ├── .devcontainer/
 │   ├── devcontainer.json    # Codespaces設定
 │   └── docker-compose.yml   # Docker構成
-└── README.md                # このファイル
+├── FE-OPEN-R7/               # 基本情報技術者試験対策の練習問題
+├── order-management/         # 「MySQLで学ぶ受注管理システム開発」連載のコード
+│   ├── 01_schema.sql
+│   └── 02_crud.sql
+├── README.md                 # このファイル
+└── SETUP.md                  # GitHub初心者向けセットアップガイド
 ```
 
 ## 🔄 次回以降の起動
