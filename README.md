@@ -215,12 +215,13 @@ FROM employees
 ORDER BY FIELD(gender, '男', '女'), birth_date ASC;
 ```
 
-## 📖 関連ブログ連載（https://my-studies.org)
+## 📖 関連ブログ連載
 
 「MySQLで学ぶ受注管理システム開発」（全5回）
 
-1. [テーブル設計とER図を描こう]※制作中
-2. [CRUD操作を極めよう]※制作中
+1. [テーブル設計とER図を描こう](https://my-studies.org/learning-order-management-system-development-with-mysql-1-table-design-and-er-diagrams/)
+2. [CRUD操作を極めよう](https://my-studies.org/learning-order-management-system-development-with-mysql-2-master-crud-operations/)
+3. [ビューとストアドプロシージャを作ろう](https://my-studies.org/my-studies-org-learning-order-management-system-development-with-mysql-3-view-procedure/)
 
 ## 📝 練習問題
 
@@ -262,8 +263,8 @@ GROUP BY d.department_name;"
 
 ## 📚 学習リソース
 
-- [MySQL公式ドキュメント](https://dev.mysql.com/doc/)※外部リンク
-- [SQL基礎文法](https://www.w3schools.com/sql/)※外部リンク
+- [MySQL公式ドキュメント](https://dev.mysql.com/doc/)
+- [SQL基礎文法](https://www.w3schools.com/sql/)
 
 ## 🔧 接続情報
 
@@ -283,7 +284,8 @@ mysql-learning/
 ├── FE-OPEN-R7/               # 基本情報技術者試験対策の練習問題
 ├── order-management/         # 「MySQLで学ぶ受注管理システム開発」連載のコード
 │   ├── 01_schema.sql
-│   └── 02_crud.sql
+│   ├── 02_crud.sql
+│   └── 03_view_procedure.sql
 ├── README.md                 # このファイル
 └── SETUP.md                  # GitHub初心者向けセットアップガイド
 ```
