@@ -222,6 +222,7 @@ ORDER BY FIELD(gender, '男', '女'), birth_date ASC;
 1. [テーブル設計とER図を描こう](https://my-studies.org/learning-order-management-system-development-with-mysql-1-table-design-and-er-diagrams/)
 2. [CRUD操作を極めよう](https://my-studies.org/learning-order-management-system-development-with-mysql-2-master-crud-operations/)
 3. [ビューとストアドプロシージャを作ろう](https://my-studies.org/my-studies-org-learning-order-management-system-development-with-mysql-3-view-procedure/)
+4. [トリガーとユーザー権限管理](https://my-studies.org/my-studies-org-learning-order-management-system-development-with-mysql-4-trigger-permission/)
 
 ## 📝 練習問題
 
@@ -285,7 +286,8 @@ mysql-learning/
 ├── order-management/         # 「MySQLで学ぶ受注管理システム開発」連載のコード
 │   ├── 01_schema.sql
 │   ├── 02_crud.sql
-│   └── 03_view_procedure.sql
+│   ├── 03_view_procedure.sql
+│   └── 04_trigger_permission.sql
 ├── README.md                 # このファイル
 └── SETUP.md                  # GitHub初心者向けセットアップガイド
 ```
