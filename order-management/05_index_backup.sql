@@ -38,9 +38,10 @@ SHOW INDEX FROM orders;
 -- 2. バックアップ・リストア（ターミナルコマンド／参考）
 -- ============================================================
 
--- 【バックアップ】データベース全体
+-- 【バックアップ】データベース全体（トリガーはデフォルトで含まれる。
+--                 ストアドプロシージャ・関数は --routines、イベントは --events が必要）
 -- mkdir -p backups
--- mysqldump -h db -u root -ppassword order_db > backups/order_db_backup.sql
+-- mysqldump -h db -u root -ppassword --routines --events order_db > backups/order_db_backup.sql
 
 -- 【バックアップ】特定のテーブルのみ
 -- mysqldump -h db -u root -ppassword order_db orders order_details > backups/orders_only_backup.sql
