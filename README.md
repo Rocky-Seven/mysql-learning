@@ -223,7 +223,7 @@ ORDER BY FIELD(gender, '男', '女'), birth_date ASC;
 2. [CRUD操作を極めよう](https://my-studies.org/learning-order-management-system-development-with-mysql-2-master-crud-operations/)
 3. [ビューとストアドプロシージャを作ろう](https://my-studies.org/my-studies-org-learning-order-management-system-development-with-mysql-3-view-procedure/)
 4. [トリガーとユーザー権限管理](https://my-studies.org/my-studies-org-learning-order-management-system-development-with-mysql-4-trigger-permission/)
-5. パフォーマンスチューニングとバックアップ（最終回）
+5. パフォーマンスチューニングとバックアップ（[最終回](https://my-studies.org/learning-order-management-system-development-with-mysql-5-performance-tuning-and-backup/)）
 
 ## 📝 練習問題
 
